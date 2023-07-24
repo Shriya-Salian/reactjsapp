@@ -1,0 +1,62 @@
+/* Reset some default styles to ensure consistent appearance */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and font family */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+/* Style the main content */
+main {
+    padding: 20px;
+}
+
+/* Style the home section */
+#home {
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Style the menu section */
+#menu {
+    padding: 20px 0;
+}
+
+/* Style the about section */
+#about {
+    padding: 20px 0;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

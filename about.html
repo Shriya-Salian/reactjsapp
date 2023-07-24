@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Your Restaurant</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#menu">Menu</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">About Us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <!-- Bootstrap Accordion -->
+            <div id="accordion">
+                <div class="card">
+                    <div class="card-header" id="orgName">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOrg"
+                                aria-expanded="true" aria-controls="collapseOrg">
+                                Organization Name
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOrg" class="collapse show" aria-labelledby="orgName" data-parent="#accordion">
+                        <div class="card-body">
+                            Your Restaurant is a place where food and joy come together. We strive to provide the best
+                            dining experience for our customers.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="address">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseAddress"
+                                aria-expanded="false" aria-controls="collapseAddress">
+                                Address
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseAddress" class="collapse" aria-labelledby="address" data-parent="#accordion">
+                        <div class="card-body">
+                            123 Main Street, Your City, State, ZIP
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="location">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseLocation"
+                                aria-expanded="false" aria-controls="collapseLocation">
+                                Location
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseLocation" class="collapse" aria-labelledby="location" data-parent="#accordion">
+                        <div class="card-body">
+                            We are conveniently located near the city center, making it easy for you to visit us.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="contact">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseContact"
+                                aria-expanded="false" aria-controls="collapseContact">
+                                Contact Details
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseContact" class="collapse" aria-labelledby="contact" data-parent="#accordion">
+                        <div class="card-body">
+                            Phone: (123) 456-7890<br>
+                            Email: info@yourrestaurant.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="mt-5">
+        <p>&copy; 2023 Your Restaurant Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
